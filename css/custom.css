@@ -1,0 +1,121 @@
+/* FORM STYLING START */
+
+#orderform {
+	position: relative;
+	background-color: #47a3da;
+	padding: 15px;
+}
+
+#orderform:before,
+#orderform:after {
+	content: " ";
+	display: table;
+}
+
+#orderform:after {clear: both;}
+
+#orderform label {
+	display: block;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	color: #fff;
+	padding-bottom: 10px;
+}
+
+#orderform input,
+#orderform select {
+	font-family: Arial;
+	display: block;
+	color: #fff;
+	border: 3px solid #fff;
+	background-color: transparent;
+	line-height: 1.5;
+	width: 100%;
+	padding: 5px 10px;
+	font-size: 1.2em;
+	margin-top: 2px;
+}
+
+input#submitform {
+	border: none;
+	text-transform: uppercase;
+	background-color: #10689a;
+	cursor: pointer;
+	border-radius: 3px;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#submitform:hover {background-color: #1478b1}
+
+#orderform input:focus,
+#orderform label:active + input {
+	outline: none;
+	border: 3px solid #10689a;
+}
+
+#orderform h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.7em;
+	margin-bottom: 25px;
+}
+
+/* FORM STYLING END   */
+
+
+/* HEADER STYLING START */
+
+.page-header .row > div * {
+	padding: 0;
+	margin: 0;
+}
+
+#contactinfo {
+	font-size: 1.4em;
+}
+
+#contactinfo a {
+	color: #47a3da;
+	text-decoration: none;
+}
+
+#contactinfo a:hover {
+	color: #47a3da;
+	border-bottom: 2px solid #10689a;
+}
+
+p.description {color: #555;}
+
+/* HEADER STYLING  END  */
+
+/* BENEFITS STYLING START */
+
+.benefits {
+	margin-top: 10px;
+
+}
+
+.benefits h1 {
+	/*margin: 0;*/
+	text-transform: uppercase;
+	font-size: 1.6em;
+	color: #3487c8;
+}
+
+.benefits figure {
+	background-color: #f5f5f5;
+	padding: 0 8px;
+}
+
+.benefits figcaption {
+	width: 100%;
+	text-align: justify;
+	padding: 0 10px;
+}
+
+/* BENEFITS STYLING END */
